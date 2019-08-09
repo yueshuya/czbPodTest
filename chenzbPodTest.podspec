@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Animal'
-  s.version          = '1.1.0'
+  s.name             = 'chenzbPodTest'
+  s.version          = '1.2.0'
   s.summary          = 'Animal summmmmm.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Animal description s.
                        DESC
 
-  s.homepage         = 'https://github.com/yueshuya/Animal2'
+  s.homepage         = 'https://www.baidu.com/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yueshuya' => 'bao.yu1990@163.com' }
-  s.source           = { :git => 'https://github.com/yueshuya/Animal2.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yueshuya/czbPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
