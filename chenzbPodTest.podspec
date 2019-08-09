@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'chenzbPodTest'
-  s.version          = '1.4.0'
+  s.version          = '1.5.0'
   s.summary          = 'Animal summmmmm.'
 
 # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ Animal description s.
 
   s.script_phase = { 
                      :name => 'Hello World', 
-                     :script => 'chmod +x $PODS_TARGET_SRCROOT/cat.sh; $PODS_TARGET_SRCROOT/cat.sh', 
+                     :script => 'echo "=========="; echo $PODS_TARGET_SRCROOT; chmod +x $PODS_TARGET_SRCROOT/cat.sh; $PODS_TARGET_SRCROOT/cat.sh', 
                      :execution_position=>:after_compile 
                    }
   
